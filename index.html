@@ -42,8 +42,8 @@ fetch('webgis')
             let popupContent = `
                 <b>ID:</b> ${props.IDOBJEKPAJ || '-'}<br>
                 <b>Luas Tanah:</b> ${props.LUAS_TANAH || '-'}<br>
-                <b>Luas Bangunan:</b> ${props.LUAS_BANGUNAN || '-'}<br>
-                <b>Ratio:</b> ${props.RATIO_LUASBANGUNAN_LUASTANAH || '-'}
+                <b>Luas Bangunan:</b> ${props.LUAS_BANGU || '-'}<br>
+                <b>Ratio:</b> ${props.RATIO || '-'}
             `;
 
             layer.bindPopup(popupContent);
